@@ -13,7 +13,7 @@
 
 a, a:link, a:visited 
 {
-    text-decoration: none; /*видаляє підкреслення у посиланнях*/
+    text-decoration: none; 
 }
 
 img, svg 
