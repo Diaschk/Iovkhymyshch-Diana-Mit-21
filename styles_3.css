@@ -1,0 +1,505 @@
+:root 
+{
+    --main-color: #000000;
+    --font-size: 10px;
+}
+
+body 
+{
+    margin: 0px 5px;
+    color: var(--main-color);
+    font-size: var(--font-size);
+    background-color: rgb(230, 232, 234); 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.page-heading 
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--Color-text-text)
+}
+
+.Website
+{
+   word-spacing: 15px;
+}
+
+.formula-name 
+{
+    margin-right: 1180px; 
+}
+
+
+.settings
+{
+    width: 100%; 
+    cursor: pointer;
+    text-align: left;
+}
+
+.discard
+{
+    padding: 8px 10px;
+    border-radius: 4px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: bold;
+    box-shadow: 0 1px 2px rgba(6, 5, 5, 0.1); 
+    cursor: pointer;
+}
+
+.save1
+{
+    padding: 8px 9px;
+    border-radius: 5px;
+    background-color: rgb(228, 226, 226);
+    color: grey;
+    cursor: pointer;
+} 
+
+.settings_1
+ {
+    width: 99%; 
+    margin: 15px 0px; 
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 7px; 
+    display: inline-block;
+    text-align: left;
+    margin-left: 4px;
+}
+
+.title
+{
+    margin-bottom: 10px;
+}
+
+.formulaname
+{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 9px ;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+
+.settings_2
+{
+    width: 48%; 
+    margin: 15px 0px; 
+    background-color: white;
+    padding: 5px 10px;
+    padding-top: 25px;
+    border-radius: 7px; 
+    display: inline-block;
+    text-align: left;
+    margin-left: 5px;
+} 
+
+.input-description1,
+.input-description2,
+.input-description3,
+.number1,
+.number2,
+.frequency,
+.formula,
+.search-result-item,
+.search-container1,
+.search-container2,
+.save3,
+.search-icon
+{
+    margin-left: 10px;
+}
+
+.bitcoin,
+.ethereum,
+.ripple,
+.litecoin,
+.collection1,
+.collection2,
+.collection3,
+.product1,
+.product2,
+.variant1,
+.variant2,
+.variant3,
+.selected
+{
+    margin-left: 7px;
+}
+
+.number1
+{
+    width: 97%;
+    padding: 9px 9px;
+    border-radius: 9px ;
+    margin: 5px 9px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+.number2
+{
+    width: 97%;
+    padding: 9px 9px;
+    border-radius: 9px ;
+    margin: 10px 9px;
+    background-color: white;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+.number3
+{
+    width: 97%;
+    border-radius: 9px ;
+    margin: 10px 0px;
+    background-color: white;
+    border: 1px solid rgb(24, 24, 24);
+    border: none;
+}
+
+.question-icon
+{
+    max-width: 30px; 
+    height: auto;
+   
+    position: absolute;
+    left: 150px; 
+    top: 187px;
+}
+
+
+.search-result
+{
+    width: 97%;
+    border: black; 
+    border: 1px solid #000000;
+    cursor: pointer; 
+    display: inline-block; 
+    text-align: left;
+    align-items: center; 
+    margin-top: 10px; 
+    margin: 10px 9px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+
+.search-result-item 
+{
+    width: 95%;
+    border: black; 
+    box-shadow: 0 1px rgb(230, 232, 234); 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+}
+
+
+.search-container1
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    width: 97%;
+    margin: 10px 8px;
+}
+
+
+.search-container2
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    width: 97%;
+    margin: 10px 15px;
+    margin-top: 20px;
+}
+
+.search-icon
+{
+    max-width: 15px; 
+    height: auto;
+    float: right;
+    margin-left: 10px;
+}
+
+.settings_3
+{  
+    position: absolute;
+    bottom: 182px;
+    width: 49%; 
+    margin: 0px 25px; 
+    background-color: white;
+    padding: 5px 10px;
+    padding-top: 25px;
+    border-radius: 7px; 
+    display: inline-block;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.folder
+{
+    margin-left: 10px;
+    width: 15%;
+}
+
+.folder1
+{
+    width: 8%;
+}
+
+.minus
+{
+    width: 10%;
+}
+
+.selected
+{
+    margin-left: 20px;
+}
+
+.settings_4 
+{
+    position: absolute;
+    bottom: -530px; 
+    width: 49%; 
+    background-color: white;
+    padding: 5px 10px;
+    padding-top: 25px;
+    border-radius: 7px; 
+    display: inline-block;
+    text-align: left;
+    margin-left: 23px; 
+}
+
+.formulasettings,.addcollections,.addproducts
+{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.input-description1
+{
+    margin-bottom: 15px;
+}
+
+.settings_2 .formulasettings 
+{
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.formula {
+    display: block;
+}
+
+
+#crypto-list1 li 
+{
+    width: 98%;
+    margin-bottom: 10px;
+    box-shadow: 0 1px  rgb(230, 232, 234); 
+    padding: 10px; 
+    margin-bottom: 5px;
+}
+
+
+#crypto-list1 button 
+{
+    display: flex; 
+    align-items: center; 
+}
+
+#crypto-list2 li 
+{
+   
+    width: 98%;
+    margin-bottom: 10px;
+    padding: 10px; 
+    margin-bottom: 5px;
+}
+
+#crypto-list2 button 
+{
+    display: flex; 
+    align-items: center; 
+  
+}
+
+#crypto-list3 li 
+{
+    width: 98%;
+    margin-bottom: 10px;
+    padding: 10px; 
+    margin-bottom: 5px;
+}
+
+#crypto-list3 button 
+{
+    display: flex; 
+    align-items: center; 
+  
+}
+
+#crypto-list3
+{
+    margin-top: 10px;
+    box-shadow:  0 -1px 0 rgba(0, 0, 0, 0.1);
+    max-width: 710px ;
+}
+.save3
+{
+    width: 97%;
+    padding: 8px 9px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+} 
+.save2
+{
+    width: 49%;
+    padding: 8px 9px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+} 
+
+.cancel
+{
+    width: 49%;
+    padding: 8px 9px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: bold;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+} 
+
+.pointer-icon1
+{
+    max-width: 35px; 
+    height: auto;
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 320px;
+    left: 700px;
+}
+
+.pointer-icon2
+{
+    max-width: 35px; 
+    height: auto;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 15px;
+    left: 700px;
+}
+
+  #crypto-list2 li:first-child 
+  {
+    flex-basis: 30%; 
+  }
+  
+  #crypto-list2 li:not(:first-child) 
+  {
+    flex-basis: calc((100% - 30%) / 3); 
+    margin-left: 20px; 
+  }
+
+  #crypto-list3 li:first-child 
+  {
+    flex-basis: 30%; 
+  }
+  
+  #crypto-list3 li:not(:first-child) 
+  {
+    flex-basis: calc((100% - 30%) / 3); 
+    margin-left: 20px; 
+  }
+
+  .checkbox-container 
+  {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container label 
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-container input[type="checkbox"] 
+{
+    height: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.checkbox-container .icon 
+{
+    position: absolute;
+    left: -8px;
+    top: 8px;
+    display: none; 
+    width: 26px;
+    height: 20px;
+    pointer-events: none; 
+}
+
+.checkbox-container input[type="checkbox"]:checked + .icon 
+{
+    display: block; 
+}
+
+.checkbox-container1 {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container1 label 
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-container1 input[type="checkbox"] 
+{
+    height: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.checkbox-container1 .icon 
+{
+    position: absolute;
+    left: -8px;
+    top: -5px;
+    display: none; 
+    width: 26px;
+    height: 20px;
+    pointer-events: none; 
+}
+
+.checkbox-container1 input[type="checkbox"]:checked + .icon 
+{
+    display: block;
+}

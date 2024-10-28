@@ -1,0 +1,168 @@
+:root 
+{
+    --main-color: #000000;
+    --font-size: 10px;
+}
+
+body 
+{
+    margin: 0px 15px;
+    color: var(--main-color);
+    font-size: var(--font-size);
+    background-color: rgb(230, 232, 234); 
+    font-family: 'Roboto', sans-serif;
+}
+
+.container 
+{
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+    
+}
+
+.page-heading 
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--Color-text-text)
+}
+
+
+.small-spacing 
+{
+    word-spacing: 1px;
+}
+
+.Website
+{
+   word-spacing: 10px;
+}
+
+.small-spacing 
+{
+    margin-right: 1167px; 
+}
+
+.settings
+{
+    width: 100%; 
+    cursor: pointer;
+    text-align: left;
+}
+
+.discard
+{
+    padding: 8px 10px;
+    border-radius: 4px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: bold;
+    box-shadow: 0 1px 2px rgba(6, 5, 5, 0.1); 
+    cursor: pointer;
+}
+
+.save
+{
+    padding: 8px 9px;
+    border-radius: 5px;
+    background-color: rgb(228, 226, 226);
+    color: grey;
+    cursor: pointer;
+} 
+
+.createformula
+{
+    padding: 8px 10px;
+    background-color:black;
+    border-radius:7px;
+    color:white;
+}
+
+.settings_1
+ {
+    width: 98.5%; 
+    margin: 15px 0px; 
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 7px; 
+    display: inline-block;
+    text-align: left;
+}
+
+
+.SettingName
+{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 9px ;
+    margin: 10px 0px;
+    background-color: white;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+.settings_2
+{
+    width: 50%; 
+    margin: 5px auto; 
+    background-color: white;
+    padding: 110px 0px;
+    border-radius: 6px; 
+    display: block; 
+    text-align: center; 
+}
+
+p.no-formulas 
+{
+    margin-bottom: 10px; 
+    margin-top: 15px;
+}
+
+p.create-formula 
+{
+    margin-top: 10px; 
+}
+
+.settings_3
+ {
+    margin-top: 15px;
+    box-shadow: bold;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 9px; 
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap; 
+    box-sizing: border-box; 
+    padding: 6px 11px;
+    background-color: rgb(0, 0, 0);
+    border: 1px;
+    color: white;
+}
+
+.table
+ {
+    box-shadow: bold;
+    width: 98.5%; 
+    margin: 15px 0px; 
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+
+.write-icon 
+{
+    float: right;
+    margin-left: 500px;
+
+}
+
+.delete-icon 
+{
+    max-width: 15px; 
+    height: auto;
+    float: right;
+    margin-top: 7px;
+}
