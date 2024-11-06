@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>Formula with the id "{{ id }}"!</h1>
+        
     </div>
 </template>
 
