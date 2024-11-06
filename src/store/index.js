@@ -33,7 +33,7 @@ export default createStore({
                             products: [
                                 {
                                     id: 'product-23423523',
-                                    variantsIds: ['variant-23423523', 'variant--23423524']
+                                    variantsIds: ['variant-23423523', 'variant-23423524']
                                 }
                             ]
                         }

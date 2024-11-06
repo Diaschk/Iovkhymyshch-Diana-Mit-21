@@ -19,7 +19,7 @@ const routes = [
         path: '/formula/:id',
         name: 'Formula',
         component: FormulaView,
-        props: true,
+        props: true, // This line is crucial to pass the `id` as a prop
     },
 ];
 
@@ -29,3 +29,4 @@ const router = createRouter({
 });
 
 export default router;
+

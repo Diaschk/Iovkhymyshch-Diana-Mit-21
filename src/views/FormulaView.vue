@@ -1,11 +1,11 @@
 <template>
     <div>
-        <h1> Formula with the id "{{ id  }}! </h1>
-        <button @click="editFormula"> Go to formula </button>
+        <h1>Formula with the id "{{ id }}"!</h1>
     </div>
 </template>
 
 <script>
+
 import { mapGetters, mapActions } from 'vuex';
 
 export default {
@@ -15,9 +15,8 @@ export default {
             required: true,
         },
     },
-    computed: {
-    },
-    methods: {
+    mounted() {
+        console.log("ID received in FormulaView:", this.id);
     },
 };
 </script>
