@@ -1,0 +1,64 @@
+:root {
+  --main-color: #000000;
+  --font-size: 10px;
+  --background-color: rgb(230, 232, 234);
+  --white: white;
+  --grey-light: rgb(251, 251, 251);
+  --grey-dark: rgb(228, 226, 226);
+  --black: black;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+body {
+  margin: 0 5px;
+  background-color: #e6e8ea;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1376px;
+  margin: 0 auto;
+}
+
+.page-heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--Color-text-text);
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}/*# sourceMappingURL=base.css.map */

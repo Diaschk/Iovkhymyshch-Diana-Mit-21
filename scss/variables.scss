@@ -1,0 +1,27 @@
+@import 'mixins.scss';
+
+$font-family-roboto: 'Roboto', sans-serif;
+$font-family-inter: 'Inter', sans-serif;
+$color-background: #e6e8ea;
+$color-white: white;
+$color-text: var(--Color-text-text);
+$color-border: #e4e3e3;
+$color-grey: #f3eded;
+$color-green: #b8ffb8;
+$font-size-small: 11px;
+$font-size-big: 14px;
+$padding-small: 3px;
+$padding-medium: 9px 9px;
+$border-radius: 8px;
+
+
+:root {
+    --main-color: #000000;
+    --font-size: 10px;
+    --background-color: rgb(230, 232, 234);
+    --white: white;
+    --grey-light: rgb(251, 251, 251);
+    --grey-dark: rgb(228, 226, 226);
+    --black: black;
+}
+

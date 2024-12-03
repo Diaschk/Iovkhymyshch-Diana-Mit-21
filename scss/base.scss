@@ -1,0 +1,64 @@
+@import 'variables.scss';
+
+a, a:link, a:visited 
+{
+    text-decoration: none; 
+}
+
+button 
+{
+    background: none;
+    border: none;
+}
+
+body {
+    margin: 0 5px;
+    background-color: $color-background;
+    font-family: $font-family-roboto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+}
+
+.page-heading {
+    font-family: $font-family-inter;
+    font-weight: 700;
+    line-height: 32px;
+    color: $color-text;
+}
+
+ul, ul li 
+{
+    list-style: none;
+}
+
+input::-ms-clear 
+{
+    display: none;
+}
+
+button, input[type="submit"] 
+{
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input:focus, button:focus 
+{
+    outline: none;
+}
+
+button::-moz-focus-inner 
+{
+    padding: 0;
+    border: 0;
+}
+
+label 
+{
+    cursor: pointer;
+}

@@ -1,0 +1,79 @@
+.checkbox-container label,.checkbox-container1 label{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#crypto-list1,#crypto-list2,#crypto-list3{
+    button {
+        display: flex;
+        align-items: center;
+    }
+}
+.checkbox-container,.checkbox-container1{
+    display: flex;
+    align-items: center;
+    input[type="checkbox"] {
+        height: 20px;
+    }
+    input[type="checkbox"]:checked + .icon{
+        display: block;
+    }
+    input[type="checkbox"]:checked + .icon1{
+        display: block;
+    }
+}
+
+.checkbox-container .icon{
+    position: absolute;
+    display: none;
+    height: 37px;
+    left: -7px;
+}
+
+.checkbox-container1 .icon1{
+    position: absolute;
+    display: none;
+    height: 37px;
+    right: 65px;
+}
+
+.search-container1,.search-container2{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    &.search-container1{
+        width: 97%;
+        margin: 10px 8px;
+    }
+    &.search-container2{
+        width: 96%;
+        margin: 20px 15px 10px;
+    }
+}
+
+#crypto-list1,#crypto-list2,#crypto-list3{
+    li{
+        width: 98%;
+        margin-bottom: 5px;
+        padding: 10px;
+        &.crypto-list1{
+            box-shadow: 0 1px rgb(230, 232, 234);
+        }
+    }
+}
+
+#crypto-list3{
+    margin-top: 10px;
+    box-shadow:  0 -1px 0 rgba(0, 0, 0, 0.1);
+    max-width: 710px ;
+}
+#crypto-list2 li:first-child,#crypto-list3 li:first-child{
+    flex-basis: 30%;
+}
+
+#crypto-list2 li:not(:first-child),#crypto-list3 li:not(:first-child){
+    flex-basis: calc((100% - 30%) / 3);
+    margin-left: 20px;
+}
